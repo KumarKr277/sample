@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: smart-calculator
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
